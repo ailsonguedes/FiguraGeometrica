@@ -1,8 +1,8 @@
 
 public class Retangulo extends FiguraGeometrica{
 	
-	private double base = 10;
-	private double altura = 5;
+	private double base;
+	private double altura;
 	
 	public String getNome(){
 		return "Retangulo";

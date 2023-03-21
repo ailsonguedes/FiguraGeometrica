@@ -1,7 +1,7 @@
 public class Circulo extends FiguraGeometrica {
 	
 	private double pi = 3.14;
-	private double raio = 3;
+	private double raio;
 	
 	public String getNome(){
 		return "Ciruclo";

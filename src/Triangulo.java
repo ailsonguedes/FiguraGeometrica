@@ -1,8 +1,8 @@
 
 public class Triangulo extends FiguraGeometrica{
 	
-	private double base = 13;
-	private double altura = 7;
+	private double base;
+	private double altura;
 	
 	public String getNome(){
 		return "Triangulo";
