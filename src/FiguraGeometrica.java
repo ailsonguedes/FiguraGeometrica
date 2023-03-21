@@ -1,17 +1,10 @@
 public class FiguraGeometrica {
 	
 	private String nome;
+		
+	public abstract double getArea();
 	
-	public double getArea(){
-		return 0;		
-	}
-	
-	public String getDescricao(){
-		return getNome() + ": base= " + " altura= ";
-	}
-	
-	public void setDescricao(String descricao){
-	}
+	public abstract String getDescricao();
 	
 	public String getNome() {
 		return nome;
@@ -20,6 +13,5 @@ public class FiguraGeometrica {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	
 	
 }
